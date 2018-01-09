@@ -41,14 +41,15 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 * When working with Less please demonstrate you understand how to use it the most modular and effective way
 * You are free to add whatever frameworks or libraries you like, but be prepared to justify your use of them.
 * Things to consider: performance, efficient use of space, usability, cross-browser, responsiveness.
-* Please aim to complete all tasks within 48h
+
 
 ## Tasks
 ### 1. Create product listing page
 * Use `app/index.html` file
 * Create a full width page with a header, a footer and a main section in index.html.
 * Main section should be populated with products using AJAX - data set `src/data/products.json`
-* Each product should include image thumbnail, product name, product price (current, was and discount price), size, favourite icon and be linked to `url` key
+* Each product should include image thumbnail, product name, product price (current, was and discount price), size and be linked to `url` key
+* Add Favourite icon to each product
 * Desktop design for products layout is provided in `app/plp-design.png` 
 * It should be fully responsive
 * Add toggle option between list and grid view
@@ -58,13 +59,14 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 ### 2. Form Validation
 * Use `app/form.html` file
 * Add a form with following fields:
-  - name: alphanumeric, no case sensitive
-  - surname: alphanumeric, no case sensitive
+  - name: text only, no case sensitive
+  - surname: text only, no case sensitive
   - email: alphanumeric, no case sensitive must contain `@` symbol and domain name
-  - phone: can contain `+` and `space` characters and numbers only
+  - phone: can contain `+` (only in front of the number) and `space` characters and numbers only
   - password: must be at least 8 long and contain at least 1 special character
 * Display error messages for each invalid field
-* All the fields needs to be valid before form can be submitted
+* All fileds are required and needs to be valid before form can be submitted
+* Use only vanilla JS for this tasks (do not use plugins or HTML5 API)
 * **Optional task:** add unit tests
 
 ## Finished
