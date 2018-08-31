@@ -11,7 +11,7 @@ This repository is read only so to push your changes you'll need to fork it.
 * In Bitbucket click the `+` button on the left hand navigation
 * In the _GET TO WORK_ section, choose _Fork this repository_
 * In your forked repo click the _Settings_ cog in the left hand navigation and choose _General_ / _User and group access_
-  Give read access to `lukaszpietraszek` and `timhillman`
+  Give read access to `lukaszpietraszek`, `melanieberrutenvoy` and `zozon011`
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 * Main section should be populated with products using AJAX - data set `src/data/products.json`
 * Each product should include image thumbnail, product name, product price (current, was and discount price), size and be linked to `url` key
 * Add Favourite icon to each product
-* Desktop design for products layout is provided in `app/plp-design.png` 
+* Desktop design for products layout is provided in `app/plp-design.png`
 * It should be fully responsive
 * Add toggle option between list and grid view
 * Add comments on what other improvements would you add to this page
@@ -65,7 +65,7 @@ It will watch for all the changes in `src/less` directory - however it won't aut
   - phone: can contain `+` (only in front of the number) and `space` characters and numbers only
   - password: must be at least 8 long and contain at least 1 special character
 * Display error messages for each invalid field
-* All fileds are required and needs to be valid before form can be submitted
+* All fields are required and needs to be valid before form can be submitted
 * Use only vanilla JS for this tasks (do not use plugins or HTML5 API)
 * **Optional task:** add unit tests
 
