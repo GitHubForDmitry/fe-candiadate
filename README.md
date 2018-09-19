@@ -37,10 +37,12 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 * Try to have a least one commit per task so that we can see the work progress
 * Use descriptive commit comments
 * It's up to you whether you want to push regularly or once you are finished with all of your commits
-* Use Less preprocessor to style it. `main.less` - file is already included in `src/less/` directory
+* Use `Less` preprocessor to style it. `main.less` - file is already included in `src/less/` directory
 * When working with Less please demonstrate you understand how to use it the most modular and effective way
 * You are free to add whatever frameworks or libraries you like, but be prepared to justify your use of them.
 * Things to consider: performance, efficient use of space, usability, cross-browser, responsiveness.
+* Show that you understand how version control works by using following commands: `branch`, `merge` and `rebase`
+* Once you've completed your test please create a Pull Request and add `lukaszpietraszek`, `melanieberrutenvoy` and `zozon011` as reviewers.
 
 
 ## Tasks
