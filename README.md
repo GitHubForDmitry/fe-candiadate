@@ -11,7 +11,7 @@ This repository is read only so to push your changes you'll need to fork it.
 * In Bitbucket click the `+` button on the left hand navigation
 * In the _GET TO WORK_ section, choose _Fork this repository_
 * In your forked repo click the _Settings_ cog in the left hand navigation and choose _General_ / _User and group access_
-  Give read access to `lukaszpietraszek`, `melanieberrutenvoy` and `zozon011`
+  Give read access to `lukasz.pietraszek@envoydigital.com`, `melanie.berrut@envoydigital.com` and `zorica.janjic@envoydigital.com`
 
 ## Getting Started
 
