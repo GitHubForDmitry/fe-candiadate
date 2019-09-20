@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Form Validation</title>
-
+  <title>Form</title>
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+  <script defer src="../src/scripts/validate.js"></script>
+  <title>Form</title>
 </head>
-
 <body>
+<div class="container">
+  <h1>Sign Up</h1>
+  <div class="row">
+    <form class="col s6" id="myForm" novalidate>
+      <div class="row">
+        <div class="input-field col s6">
+          <label for="firstName">First Name</label>
+          <input
+                  type="text"
+                  name="First Name"
+                  id="firstName"
+                  onKeyPress="onlyText()"
+                  onfocusout="validateFirstName()"
+          />
+          <span class="helper-text"></span>
+        </div>
+        <div class="input-field col s6">
+          <label for="lastName">Last Name</label>
+          <input
+                  type="text"
+                  name="Last Name"
+                  id="lastName"
+                  onKeyPress="onlyText()"
+                  onfocusout="validateLastName()"
+          />
+          <span class="helper-text"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <label for="password">Password</label>
+          <input
+                  type="password"
+                  name="Password"
+                  id="password"
+                  onfocusout="validatePassword()"
+          />
+          <span class="helper-text"></span>
+        </div>
+        <div class="input-field col s6">
+          <label for="phone">Phone number</label>
+          <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  onfocusout="validatePhone()"
+                  onkeypress="return isNumberKey(event)"
+          />
+          <span class="helper-text"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <label for="email">Email</label>
+          <input
+                  type="text"
+                  name="Email"
+                  id="email"
+                  onfocusout="validateEmail()"
+          />
+          <span class="helper-text"></span>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit">
+        SignUp
+      </button>
+      <a href="index.html" aria-hidden="true" class="btn waves-effect waves-light" type="submit">
+        HOME
+      </a>
+    </form>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 </html>
